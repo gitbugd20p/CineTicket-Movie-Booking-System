@@ -1,0 +1,10 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g class="drawing-elements">
+  <g stroke="null" id="svg_2">
+   <title stroke="null">Layer 1</title>
+   <path stroke="#000" fill="#ff0000" d="m128,301.12492l116.57145,-245.24979l310.85714,0l116.57141,245.24979l-116.57141,245.24979l-310.85714,0l-116.57145,-245.24979z" id="svg_5" stroke-width="10"/>
+   <text stroke="#000" fill="#e21212" stroke-width="5" x="366.39195" y="340.65177" id="svg_1" font-size="150" font-family="'Big Shoulders Display'" text-anchor="start" xml:space="preserve" transform="matrix(3.18463 -0.783646 0.853319 2.92461 -1174.73 -203.344)">CT</text>
+  </g>
+ </g>
+
+</svg>
