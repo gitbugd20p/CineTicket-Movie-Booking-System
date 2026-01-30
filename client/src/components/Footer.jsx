@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="mt-20 w-full px-6 text-gray-300 md:px-16 lg:px-36">
       <div className="flex w-full flex-col justify-between gap-10 border-b border-gray-500 pb-14 md:flex-row">
         <div className="md:max-w-96">
-          <img alt="" class="h-11" src={assets.logo} />
+          <img alt="" className="h-11" src={assets.logo} />
           <p className="mt-6 text-sm">
             Lorem Ipsum has been the industry's standard dummy text ever since
             the 1500s, when an unknown printer took a galley of type and
