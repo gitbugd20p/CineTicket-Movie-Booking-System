@@ -24,19 +24,49 @@ const Navbar = () => {
           className="absolute top-6 right-6 h-6 w-6 cursor-pointer md:hidden"
           onClick={() => setIsOpen(!isOpen)}
         />
-        <Link to="/" onClick={() => (scrollTo(0, 0), setIsOpen(false))}>
+        <Link
+          to="/"
+          onClick={() => {
+            scrollTo(0, 0);
+            setIsOpen(false);
+          }}
+        >
           Home
         </Link>
-        <Link to="/movies" onClick={() => (scrollTo(0, 0), setIsOpen(false))}>
+        <Link
+          to="/movies"
+          onClick={() => {
+            scrollTo(0, 0);
+            setIsOpen(false);
+          }}
+        >
           Movies
         </Link>
-        <Link to="/" onClick={() => (scrollTo(0, 0), setIsOpen(false))}>
+        <Link
+          to="/"
+          onClick={() => {
+            scrollTo(0, 0);
+            setIsOpen(false);
+          }}
+        >
           Theaters
         </Link>
-        <Link to="/" onClick={() => (scrollTo(0, 0), setIsOpen(false))}>
+        <Link
+          to="/"
+          onClick={() => {
+            scrollTo(0, 0);
+            setIsOpen(false);
+          }}
+        >
           Releases
         </Link>
-        <Link to="/favorite" onClick={() => (scrollTo(0, 0), setIsOpen(false))}>
+        <Link
+          to="/favorite"
+          onClick={() => {
+            scrollTo(0, 0);
+            setIsOpen(false);
+          }}
+        >
           Favorites
         </Link>
       </div>
