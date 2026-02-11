@@ -11,5 +11,8 @@ export const protectAdmin = async (req, res, next) => {
         }
 
         next();
-    } catch (error) {}
+    } catch (error) {
+        console.error(error);
+        res.json({ success: false, message: "Auth Error: " + error.message });
+    }
 };
